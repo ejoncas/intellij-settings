@@ -1,4 +1,4 @@
-<keymap version="1" name="Jonatan Keymap" parent="Eclipse (Mac OS X)">
+<keymap version="1" name="Eclipse (macOS) copy" parent="Eclipse (Mac OS X)">
   <action id="ActivateDebugToolWindow" />
   <action id="ActivateRunToolWindow" />
   <action id="ActivateServicesToolWindow" />
@@ -65,6 +65,7 @@
   <action id="IntroduceConstant">
     <keyboard-shortcut first-keystroke="shift meta c" />
   </action>
+  <action id="NextWindow" />
   <action id="Refactorings.QuickListPopupAction" />
   <action id="RenameElement">
     <keyboard-shortcut first-keystroke="shift meta r" />
@@ -77,7 +78,9 @@
   </action>
   <action id="RunToCursor" />
   <action id="SetShortcutAction" />
-  <action id="ShowIntentionActions" />
+  <action id="ShowIntentionActions">
+    <keyboard-shortcut first-keystroke="meta back_quote" />
+  </action>
   <action id="SliceBackward">
     <keyboard-shortcut first-keystroke="shift meta d" />
   </action>
